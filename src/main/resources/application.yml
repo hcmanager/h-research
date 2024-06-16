@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: research
+  datasource:
+    hc:
+      driver-class-name: com.mysql.cj.jdbc.Driver
+      jdbc-url: jdbc:mysql://db.thecoffeebox.vn:3306/devthecoffeebox
+      username: tcb
+      password: tcb
+      hikari:
+        connection-timeout: 600000
