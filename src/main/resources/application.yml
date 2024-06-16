@@ -4,9 +4,10 @@ spring:
   datasource:
     hc:
       driver-class-name: com.mysql.cj.jdbc.Driver
-      #jdbc-url: jdbc:mysql://db.thecoffeebox.vn:3306/devthecoffeebox
-      jdbc-url: jdbc:mysql://127.0.0.1:3306/devthecoffeebox
-      username: devtcb
-      password: devtcb
+      jdbc-url: jdbc:mysql://db.thecoffeebox.vn:3306/devthecoffeebox
+      #jdbc-url: jdbc:mysql://127.0.0.1:3306/devthecoffeebox
+      username: TCBmaster
+      password: TCBmaster
       hikari:
         connection-timeout: 600000
+
