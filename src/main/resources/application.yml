@@ -6,7 +6,7 @@ spring:
       driver-class-name: com.mysql.cj.jdbc.Driver
       #jdbc-url: jdbc:mysql://db.thecoffeebox.vn:3306/devthecoffeebox
       jdbc-url: jdbc:mysql://localhost:3306/devthecoffeebox
-      username: root
-      password:
+      username: devtcb
+      password: devtcb
       hikari:
         connection-timeout: 600000
